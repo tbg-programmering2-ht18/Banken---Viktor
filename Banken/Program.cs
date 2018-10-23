@@ -30,7 +30,7 @@ namespace banken
             string valStr = Console.ReadLine();
             try
             {
-                int val = int.Parse(valStr);
+                int val = int.Parse(valStr); //test
             }
             catch(FormatException e)
             {
